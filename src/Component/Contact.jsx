@@ -24,7 +24,7 @@ const Contact=()=>{
       
         <div>
          <Navbar />
-         <center> <h1><u>Contact Us</u></h1></center>
+         <center> <h1 className='text-2xl my-5'><u>Contact Us</u></h1></center>
         <div style={{ 
             display:"flex",
             alignItems:'center',
@@ -52,6 +52,7 @@ const Contact=()=>{
           >
             <lable style={{   marginLeft:'3%' }}>Full Name</lable>
             <input  
+            className='border'
                type='text'
                 name="fullname"
                 placeholder="Enter Name"
@@ -65,6 +66,7 @@ const Contact=()=>{
              />
             <lable style={{   marginLeft:'3%' }}>Email</lable>   
                 <input  
+                 className='border'
                 type='email'
                 name="email"
                 placeholder="Enter Email"
@@ -79,6 +81,7 @@ const Contact=()=>{
 
                 <lable style={{   marginLeft:'3%' }}>Message</lable>   
                 <textarea  
+                 className='border'
                 name="message"
                 placeholder="Enter Message"
                 required

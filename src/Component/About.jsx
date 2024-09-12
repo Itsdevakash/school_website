@@ -48,7 +48,7 @@ const aboutDetails =[
         <div>
 
             <Navbar />
-        <center>  <h2 >HTML Table</h2>  </center>  
+        <center>  <h2 className='text-2xl my-5' >Company Staff Name</h2>  </center>  
         <div style={{padding: '2%',}}>
 
 <table style={{ 

@@ -12,7 +12,7 @@ const Footer=()=>{
         <h2 style={{ 
             color:'white',
             fontWeight:500,
-         }}>KB Public School</h2>
+         }}>Code School</h2>
         <p style={{ 
             color:'white',
 
@@ -66,8 +66,18 @@ const Footer=()=>{
 
              }}><i className="ri-contacts-book-line"></i> Contact</Link>
              </li>
+
+             <li style={{ 
+                    listStyle:"none"
+             }}><Link to="/testing" style={{ 
+                color:'white',
+                textDecoration:"none",
+                listStyle:"none"
+
+             }}><i className="ri-contacts-book-line"></i> Testing</Link>
+             </li>
              
-            
+             
            </ul>
       </div>
 
@@ -185,8 +195,9 @@ const Footer=()=>{
        
       </div>
       
-      
+     
         </footer>
+        
     )
 }
 export default Footer

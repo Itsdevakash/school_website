@@ -22,11 +22,6 @@ const NavbarUrl=[
 
 },
 {
-   url: "/testing",
-   name: "Testing",
-
-},
-{
    url: "/contact-us",
    name: "Contact Us",
 
@@ -43,9 +38,8 @@ const Navbar = ()=>{
     return(
     <div>
 
-      <nav  style={{ 
+      <nav className='sticky top-0 left-0 z-50' style={{ 
         background:'White',
-        // color:'#fff',
         display:'flex',
         justifyContent:'space-between',
         padding:'0 48px',
@@ -58,8 +52,9 @@ const Navbar = ()=>{
          }}>
        <img src="./logo/logo.jfif" 
        width="60" alt="logo"
+       className="pt-3 pb-3"
        />
-       <h1>KB Public School</h1>
+       <h1 className="text-4xl animate-bounce font-bold ">Code School</h1>
        </div>
 
 
@@ -84,7 +79,9 @@ return(
             padding:'16px 24px',            
            
          }}>
-            <Link to={item.url} style={{ 
+            <Link 
+            className="text-4xl"
+            to={item.url} style={{ 
                textDecoration:"none",
                color:323232,
                fontSize:"17px",

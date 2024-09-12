@@ -5,65 +5,65 @@ const teachers = [
 
     {
         image: './image/a.png',
-        name:'A',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/b.png',
-        name:'B',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/c.png',
-        name:'C',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
 
     {
         image: './image/d.png',
-        name:'D',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
 
     {
         image: './image/e.png',
-        name:'E',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/j.png',
-        name:'F',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
 
     {
         image: './image/g.png',
-        name:'G',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/h.png',
-        name:'H',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/i.png',
-        name:'I',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/j.png',
-        name:'J',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/a.png',
-        name:'K',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     },
     {
         image: './image/c.png',
-        name:'L',
+        name:'AAAAAAA',
         qua:'MCA ( India University )'
     }
 ]
@@ -81,7 +81,8 @@ const Teacher=()=>{
              justifyContent:'center',
              alignItems:'center'
           }}>
-            <h1 style={{ 
+            <h1  className='text-2xl'
+            style={{ 
                 fontsize:60,
                 color:"#fff"
              }}>Teacher</h1>
@@ -106,7 +107,7 @@ const Teacher=()=>{
 
             <div style={{  width:'20%' }}  key={index}>
             <img src={item.image} width="100%" alt={item.name}/>
-            <h2  style={{ panding:0,margin:0 }}>{item.name}</h2>
+            <h2 className='text-xl' style={{ panding:0,margin:0 }}>{item.name}</h2>
             <p style={{ panding:0,margin:0 }}>{item.qua}</p>
        </div>
 
